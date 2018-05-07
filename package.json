@@ -2,7 +2,7 @@
 {
   "name": "react-native-braintree-dropin",
   "version": "1.0.0",
-  "description": "",
+  "description": "React-Native binding to Braintree native Dropin UIs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
