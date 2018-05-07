@@ -39,7 +39,10 @@
 ```javascript
 import RNBraintreeDropin from 'react-native-braintree-dropin';
 
-// TODO: What to do with the module?
-RNBraintreeDropin;
+RNBraintreeDropin.showDropin('braintreeToken').then(result => {
+    console.log('nonce:', result.nonce);
+}).catch(err => {
+    console.log('error: ', err);
+});
 ```
   

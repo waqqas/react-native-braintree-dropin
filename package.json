@@ -1,7 +1,7 @@
 
 {
-  "name": "react-native-braintree-dropin",
-  "version": "0.0.1",
+  "name": "@waqqas/react-native-braintree-dropin",
+  "version": "0.0.3",
   "description": "React-Native binding to Braintree native Dropin UIs",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,9 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Waqqas Jabbar",
+  "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.54.0"
+    "react-native": "^0.55.0"
   }
 }
